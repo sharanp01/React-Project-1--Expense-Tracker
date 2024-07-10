@@ -1,0 +1,55 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+.heading{
+    background-color: rgb(9, 198, 9);
+    margin-bottom: 40px ;
+}
+.formControl {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.formControl input{
+    margin-bottom: 20px;
+    width: 200px;
+    height: 20px;
+    padding: 5px;
+    border-radius: 10px;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+    font-family: 'Courier New', Courier, monospace;
+}
+.formControl button{
+    width: 120px;
+    height: 40px;
+    border-radius: 20px;
+    background-color: rgb(9, 198, 9);
+    color: white;
+}
+.formControl button:hover{
+    background-color: rgb(2, 87, 2);
+}
+.btndiv button{
+    margin-right: 10px;
+   
+}
+.btndiv button:nth-child(2){
+    width: 130px;
+    margin-left: 15px;
+}
+.expenseTable{
+    margin: 40px;
+}
+.expenseTable button{
+    width: 60px;
+    height: 25px;
+    border-radius: 5px;
+    background-color: rgb(9, 198, 9);
+    color: white;
+}
+.expenseTable button:hover{
+    background-color: rgb(2, 87, 2);
+}
